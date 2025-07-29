@@ -62,7 +62,21 @@ img {
 a {
   text-decoration: none;
 }
+/* Css du logo debut*/
+.logo.nav__logo {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-image: url("Logo.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
 
+.logo-link .nav__text {
+  color: white;
+}
+/* Css du logo fin*/
 .logo {
   display: inline-block;
   padding: 10px 14px;
